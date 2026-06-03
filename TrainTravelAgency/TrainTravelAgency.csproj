@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exceptions\ExternalServiceErrorException.cs" />
+    <Compile Include="Fakes\TrainTravelAgency.Fakes.cs" />
+    <Compile Include="Fakes\TrainTravelAgencyFakes.cs" />
+    <Compile Include="Fakes\TrainTravelAgencyFakess.cs" />
     <Compile Include="Models\City.cs" />
     <Compile Include="Models\SeatType.cs" />
     <Compile Include="Models\Ticket.cs" />
@@ -53,6 +56,9 @@
     <Compile Include="Services\IReservationService.cs" />
     <Compile Include="Services\IUserService.cs" />
     <Compile Include="Services\ReservationService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
